@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .thank-you-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .thank-you-icon {
+            font-size: 5rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        .thank-you-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .thank-you-message {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Portfolio</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#certifications">Certifications</a></li>
+                    <li><a href="index.html#education">Education</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme-toggle-checkbox">
+                    <label for="theme-toggle-checkbox" class="theme-toggle-label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <span class="toggle-ball"></span>
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-container">
+        <i class="fas fa-check-circle thank-you-icon"></i>
+        <h1 class="thank-you-title">Thank You for Your Message!</h1>
+        <p class="thank-you-message">I've received your message and will get back to you as soon as possible. In the meantime, feel free to explore more of my portfolio.</p>
+        <a href="index.html" class="btn btn-primary">Back to Homepage</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2023 John Doe. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
